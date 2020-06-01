@@ -9,7 +9,7 @@ public class Tester
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(Application.class);
 
         NotificationService notificationService = context.getBean(NotificationService.class);
-        notificationService.sendNotification("saloni@gmail.com", "Whats up! gayyyyyy");
+        notificationService.sendNotification("saloni@gmail.com", "Whats up!");
 
         context.close();
     }
